@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import VoteModal from '../VoteComponent';
 import './AddPollModal';
 import Modal from './AddPollModal';
 import FooterComponent from './FooterComponent';
@@ -7,6 +8,7 @@ import Header from './Header';
 const HomePage = () => {
 
     const [modalOpen, setModalOpen] = useState(false);
+    // const [voteModalOpen, setVoteModalOpen] = useState(false);
 
     return (
 
@@ -23,7 +25,12 @@ const HomePage = () => {
                     <button onClick={() => {
                         setModalOpen(true);
                     }} class="btn btn-primary" style={{ justifyContent: "center" }} >Create Poll</button>
+                    {/* <button onClick={() => {
+                        
+                        setVoteModalOpen(true)
+                    }} class="btn btn-primary" style={{ justifyContent: "center" }} >see Poll</button> */}
                     {modalOpen && <Modal setOpenModal={setModalOpen} />}
+                    {/* {voteModalOpen && <VoteModal setVoteModalOpen={setVoteModalOpen} />} */}
                 </div>
             </section>
             <section className="Top10Polls" style={{ backgroundColor: "grey", height: "auto", width: "auto" }}>

@@ -5,12 +5,14 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import HomePage from './Components/HomepageComponents/HomePage';
 import LoginPage from './Components/LoginPage';
+import PollsHistory from './Components/PollsHistory';
 
 function App() {
   return (
     
     // <LoginPage />
     <HomePage />
+    // <PollsHistory />
   );
 }
 
