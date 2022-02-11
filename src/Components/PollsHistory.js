@@ -5,9 +5,7 @@ const PollsHistory = () => {
     return (
 
         <div class="container-fluid" style={{padding:"0px", margin:"0px"}}>
-            <section>
-                <Header />
-            </section>
+            
             <section className="Top10Polls" style={{ backgroundColor: "grey", height: "auto", width: "auto" }}>
                 <div style={{ padding: "20px" }}>
                     <h2 style={{ color: "white" }}>Polls history</h2>
@@ -55,9 +53,7 @@ const PollsHistory = () => {
                     </table>
                 </div>
             </section>
-            <section>
-                <FooterComponent />
-            </section>
+            
         </div>
 
     );

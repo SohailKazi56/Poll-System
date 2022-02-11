@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Account from '../Account';
 import VoteModal from '../VoteComponent';
 import './AddPollModal';
 import Modal from './AddPollModal';
@@ -13,9 +14,7 @@ const HomePage = () => {
     return (
 
         <div>
-            <section>
-                <Header />
-            </section>
+            
             <section className="d-flex justify-content-center" style={{ backgroundColor: "beige", height: "550px", width: "auto" }}>
                 <div style={{ marginTop: "200px" }}>
                 
@@ -80,9 +79,8 @@ const HomePage = () => {
                     </table>
                 </div>
             </section>
-            <section>
-                <FooterComponent />
-            </section>
+            
+            
         </div>
 
 

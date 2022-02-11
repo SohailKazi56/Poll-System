@@ -1,5 +1,7 @@
 import { useState } from "react";
 import HomePage from "./HomepageComponents/HomePage";
+
+import {Link} from "react-router-dom";
 const LoginPage = () => {
 
     const [modalOpen, setModalOpen] = useState(false);
@@ -35,7 +37,7 @@ const LoginPage = () => {
                         
                         <label class="form-check-label" for="exampleCheck1">Remember me</label>
                     </div><br />
-                    <button  class="btn btn-primary btn-block"> Sign In</button><br /><br />
+                    <Link to="/"><button  class="btn btn-primary btn-block"> Sign In</button></Link><br /><br />
                     <button type="Signin" class="btn btn-primary btn-block">Sign In As Admin</button>
                 </form>
 

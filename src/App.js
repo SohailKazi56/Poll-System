@@ -7,13 +7,21 @@ import HomePage from './Components/HomepageComponents/HomePage';
 import LoginPage from './Components/LoginPage';
 import PollsHistory from './Components/PollsHistory';
 import UsersListHome from './Components/Admin Pages/UserListHome';
+import AdminHomePage from './Components/Admin Pages/AdminHomepage';
+import AdminPolls from './Components/Admin Pages/AdminPolls';
+import Routes from './Routes';
 
 function App() {
   return (
-    <UsersListHome />
+    // <div>
+    //   <Routes />
+    // </div>
+    // <UsersListHome />
     // <LoginPage />
     // <HomePage />
+    <AdminHomePage />
     // <PollsHistory />
+    // <AdminPolls />
   );
 }
 
